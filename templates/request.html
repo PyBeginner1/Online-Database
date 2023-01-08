@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Database Operation</title>
+    </head>
+    <body>
+        <div class = "operation">
+            <h1>Operation Selection</h1>
+            <form action = '/operator' method = 'post'>
+                <label for = 'operation-label'>Select an Operation: </label>
+                <select name ="operation-select" id = "operation-id">
+                    <option value="none">--Please choose an option</option>
+                    <option value = 'insert'>Insert</option>
+                    <option value = 'update'>Update</option>
+                    <option value = 'delete'>Delete</option>
+                </select>
+                <br>
+                <br>
+                <input type = 'submit' value = 'Submit'>
+            </form>
+        </div>
+    </body>
+</html>
